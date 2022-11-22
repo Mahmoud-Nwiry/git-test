@@ -4,9 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <form>
+        <h1>Basic HTML Form</h1>
+        <fieldset>
+            <legend><strong>Name</strong></legend>
+            <div class="text_box">
+                <label for="firstName">First Name</label>
+                <br>
+                <input type="text" name="firstName" id="firstName">
+            </div>
+            <br>
+            <div class="text_box">
+                <label for="lastName">Last Name</label>
+                <br>
+                <input type="text" name="lastName" id="lastName">
+            </div>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Other Questions</strong></legend>
+            <div class="radios_box">
+                <strong>Choose a drink:</strong>
+                <br>
+                <input type="radio" name="drink" value="coffee">
+                <label>coffee</label>
+                <br>
+                <input type="radio" name="drink" value="tea">
+                <label>tea</label>
+                <br>
+                <input type="radio" name="drink" value="hot_chocolate">
+                <label>chocolate</label>
+                <br>
+            </div>
+            <br>
+            <div class="checkboxes_box">
+                <strong>What ice cream do you like?</strong>
+                <br>
+                <input type="checkbox" value="chocolate">
+                <label>Chocolate</label>
+                <br>
+                <input type="checkbox" value="chocolate_budding">
+                <label>Chocolate Budding</label>
+                <br>
+                <input type="checkbox" value="chocolate_peanut_butter">
+                <label>Chocolate Peanut Butter</label>
+                <br>
+                <input type="checkbox" value="vanilla">
+                <label>Vanilla</label>
+                <br>
+                <input type="checkbox" value="strawberry">
+                <label>Strawberry</label>
+                <br>
+            </div>
+            <br>
+            <div class="select_box">
+                <strong>Select a school:</strong>
+                <br>
+                <select name="schools">
+                    <option value="Harvard">Harvard</option>
+                    <option value="Harvard2">Harvard2</option>
+                    <option value="Harvard3">Harvard3</option>
+                </select>
+            </div>
+            <br>
+            <div class="comment_box">
+                <strong>Please provide comments:</strong>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </div>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>

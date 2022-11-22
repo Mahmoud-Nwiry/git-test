@@ -4,3 +4,15 @@
     box-sizing: border-box;
     font-family: Arial, Tahoma, sans-serif;
 }
+
+form {
+    margin: 20px;
+    width: 400px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+fieldset {
+    padding: 10px;
+    margin-bottom: 10px;
+}
